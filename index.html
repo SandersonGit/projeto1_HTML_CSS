@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Game Shop - A sua loja de games</title>
     <link rel="stylesheet" href="./main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -13,14 +16,80 @@
         <nav>
           <ul>
             <li>
-              <a href="#">Sobre a Loja</a>
+              <a href="#about">Sobre a Loja</a>
             </li>
             <li>
-              <a href="#">Contato</a>
+              <a href="#contact">Contato</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
+
+    <section id="about">
+        <div class="container">
+            <img src="./assets/images/loja.jpg" alt="fachada da loja" class="img-fachada">
+            <div class="texto">
+                <h2>Sobre a loja</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nulla ipsam voluptates recusandae tempora deleniti quia, inventore exercitationem voluptate eaque quaerat itaque repellendus modi magni quod eligendi explicabo nam expedita.
+                </p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, perspiciatis! Consequuntur quos vel non eum amet doloribus quis impedit quisquam totam itaque, cum harum! Non ipsam minima quia magnam eveniet?
+                </p>
+                <ul class="brands-list">
+                    <li><img src="assets/images/nintendo.png" alt="nintendo"/></li>
+                    <li><img src="assets/images/xbox.png" alt="xbox" /></li>
+                    <li> <img src="assets/images/playstation.png" alt="playstation"/> </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+                <div class="contact-methods">
+
+                    <div>
+                        <h3>Fale conosco</h3>
+                        <form >
+                            <input type="text" placeholder="Seu nome" required>
+                            <input type="email" placeholder="Seu email" required>
+                            <input type="tel" placeholder="Seu celular (opcional)">
+                            <textarea placeholder="Sua mensagem" required></textarea>
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                    <div>
+                        <h3>Nos acompanhe</h3>
+                        <ul class="social-links">
+                            <li>
+                                <a href="#" title="Siga-nos no Instagr,"><img src="./assets/images/instagram.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#" title="Siga-nos no facebook,"><img src="./assets/images/facebook.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#" title="Visite nosso canal no youtube"><img src="./assets/images/youtube.png" alt=""></a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div>
+                        <h3>Venha até nós</h3>
+                        <p>Rua Mauá 27, Vila São João - São João de Meriti - RJ</p>
+                    </div>
+
+                </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Games Shop - Todos os direiros reservados 2023</p>
+        </div>
+    </footer>
+
   </body>
 </html>
